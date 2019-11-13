@@ -171,7 +171,26 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h2 id="windows下上传文件夹"><a href="#windows下上传文件夹" class="headerlink" title="windows下上传文件夹"></a>windows下上传文件夹</h2><p>我们回到git bash的命令窗口，由于我们是在文件夹上右键打开的，因此已经定位到该文件夹目录了。可以通过pwd命令查看文件夹位置：</p>
+<p><strong>pwd #查看文件夹位置</strong></p>
+<p>然后，将该文件夹变成Git可以管理的仓库：</p>
+<p><strong>git init</strong></p>
+<p>然后通过git add将所有文件提交到暂存区：</p>
+<p><strong>git add .</strong></p>
+<p>由于是第一次提交，需要将所有文件都进行提交，如果一个一个的提交太麻烦，通过. 命令可以将所有文件都进行提交。</p>
+<p>再然后，git commit -m ‘说明’提交到版本库中即可。</p>
+<p><strong>git commit -m ‘the initial edition’</strong></p>
+<p>这样我们便在本地建立好了仓库，接下来需要将本地仓库与GitHub网站的仓库进行关联。后面的网址是我们刚才在GitHub网站上建立的仓库位置，可以从网站上进行复制，如下：</p>
+<p><strong>git remote add origin <a href="https://github.com/geerniya/MxShop2.git" target="_blank" rel="noopener">https://github.com/geerniya/MxShop2.git</a></strong></p>
+<p>在将本地仓库与GitHub网站上的仓库进行关联后，便可进行推送了，但是在第一次进行推送时，需要注意的是，GitHub网站上的仓库并非是空的，我们在创建时创建了一个README文档，因此需要将两者进行合并才行。</p>
+<p><strong>git pull –rebase origin master</strong></p>
+<p>最后，在进行推送即可。</p>
+<p><strong>git push -u origin master</strong></p>
+<p>这个带有-u这个参数是指，将master分支的所有内容都提交，第一次关联之后后边你再提交就可以不用这个参数了，之后你的每一次修改，你就可以只将你修改push就好了。</p>
+<p><strong>git push origin master</strong></p>
+<p><strong>git remote rm origin</strong></p>
+<p>如果提示remote already exist 可以用将其删除。重新开始之后的步骤及可。</p>
+
       
 
       
