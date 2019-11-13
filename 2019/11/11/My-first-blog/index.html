@@ -6,22 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>My first blog | Hexo</title>
+  <title>如何搭建HEXO博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="搭建过程这里我们使用的是命令行搭建（基于windows10系统的静态博客搭建） 第一步： Nodejs环境的搭建这里我们直接到https:&#x2F;&#x2F;nodejs.org 官网去下载  我们选择左边的进行下载安装，下载成功后进行安装，我们不断点击下一步就可以了。 在控制台可以使用node -v 查看nodejs 的版本 第二步： cnpm 的安装由于国内镜像源npm速度过慢，所以我们这里用的是cnpm,通">
+  <meta name="description" content="搭建过程这里我们使用的是命令行搭建（基于windows10系统的静态博客搭建） 环境的搭建这里我们直接到https:&#x2F;&#x2F;nodejs.org 官网去下载  我们选择左边的进行下载安装，下载成功后进行安装，我们不断点击下一步就可以了。 在控制台可以使用node -v 查看nodejs 的版本 由于国内镜像源npm速度过慢，所以我们这里用的是cnpm,通过淘宝源进行下载 npm install -g">
 <meta property="og:type" content="article">
-<meta property="og:title" content="My first blog">
+<meta property="og:title" content="如何搭建HEXO博客">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;11&#x2F;My-first-blog&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="搭建过程这里我们使用的是命令行搭建（基于windows10系统的静态博客搭建） 第一步： Nodejs环境的搭建这里我们直接到https:&#x2F;&#x2F;nodejs.org 官网去下载  我们选择左边的进行下载安装，下载成功后进行安装，我们不断点击下一步就可以了。 在控制台可以使用node -v 查看nodejs 的版本 第二步： cnpm 的安装由于国内镜像源npm速度过慢，所以我们这里用的是cnpm,通">
+<meta property="og:description" content="搭建过程这里我们使用的是命令行搭建（基于windows10系统的静态博客搭建） 环境的搭建这里我们直接到https:&#x2F;&#x2F;nodejs.org 官网去下载  我们选择左边的进行下载安装，下载成功后进行安装，我们不断点击下一步就可以了。 在控制台可以使用node -v 查看nodejs 的版本 由于国内镜像源npm速度过慢，所以我们这里用的是cnpm,通过淘宝源进行下载 npm install -g">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;nodejs.PNG">
 <meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;gitpath.PNG">
 <meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;git.PNG">
 <meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;info.PNG">
 <meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;index.PNG">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;createBlog.PNG">
 <meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;github.PNG">
-<meta property="og:updated_time" content="2019-11-13T07:23:51.844Z">
+<meta property="og:updated_time" content="2019-11-13T07:44:18.678Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;nodejs.PNG">
   
@@ -166,7 +167,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      My first blog
+      如何搭建HEXO博客
     </h1>
   
 
@@ -180,19 +181,17 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2><p>这里我们使用的是命令行搭建（基于windows10系统的静态博客搭建）</p>
-<h3 id="第一步：-Nodejs环境的搭建"><a href="#第一步：-Nodejs环境的搭建" class="headerlink" title="第一步： Nodejs环境的搭建"></a>第一步： Nodejs环境的搭建</h3><p>这里我们直接到<a href="https://nodejs.org" target="_blank" rel="noopener">https://nodejs.org</a> 官网去下载</p>
+<h3 id="环境的搭建"><a href="#环境的搭建" class="headerlink" title="环境的搭建"></a>环境的搭建</h3><p>这里我们直接到<a href="https://nodejs.org" target="_blank" rel="noopener">https://nodejs.org</a> 官网去下载</p>
 <p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/nodejs.PNG" alt="js图片"></p>
 <p>我们选择左边的进行下载安装，下载成功后进行安装，我们不断点击下一步就可以了。</p>
 <p>在控制台可以使用node -v 查看nodejs 的版本</p>
-<h2 id="第二步：-cnpm-的安装"><a href="#第二步：-cnpm-的安装" class="headerlink" title="第二步： cnpm 的安装"></a>第二步： cnpm 的安装</h2><p>由于国内镜像源npm速度过慢，所以我们这里用的是cnpm,通过淘宝源进行下载</p>
-<p>安装cnmp</p>
+<p>由于国内镜像源npm速度过慢，所以我们这里用的是cnpm,通过淘宝源进行下载</p>
 <p>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p>
 <p>然后通过cnpm下载hexo博客</p>
 <p>cnpm install -g hexo-cli</p>
 <p>安装成功之后我们可以用hexo -v查看hexo的版本，可以看出hexo是基于nodejs的</p>
-<p>安装完成之后我们创建一个<br>博客的主目录。我们之后所有的操作都是基于在这个目录之下的。</p>
-<p>我们这里是在D盘下直接创建了blog的一个文件夹。</p>
-<p>我们通过控制台进入我们刚刚创建的blog文件夹</p>
+<h3 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h3><p><strong>安装完成之后我们创建一个博客的主目录。我们之后所有的操作都是基于在这个目录之下的。</strong></p>
+<p>我们这里是在D盘下直接创建了blog的一个文件夹，通过控制台进入我们刚刚创建的blog文件夹</p>
 <p>开始搭建我们的博客，将所需要的文件克隆到blog这个文件夹下</p>
 <p>D:\blog&gt;hexo init</p>
 <p>这条指令需要我们安装好git工具，不然会失败，我们先去下载安装好git。这里我推荐csdn博主日出东方vs唯我不败的一篇关于Git的安装博文，以下是链接地址</p>
@@ -203,18 +202,18 @@
 <p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/git.PNG" alt="image"></p>
 <p>安装完Git之后，我们通过hexo s 开启博客，然后下面会提示我们通过localhost:4000来访问我们的在本机上的一个静态博客</p>
 <p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/info.PNG" alt="image"></p>
-<p>ctrl+c可以退出hexo server</p>
+<p>我们在浏览器的url栏输入localhost:4000,可以看到博客已经搭建成功</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/index.PNG" alt="image"></p>
 <p>这时博客上只有一些实例的博客文章。下面我们开始创建我们的博客，通过hexo n+”博客名”来创建。</p>
 <p>如 hexo n “通过git指令将文件上传到github仓库的步骤”</p>
 <p>这时候下面命令行会出现提示创建信息。这里我们创建的是一个.md文件，可以通过markdown编辑器将其打开和编辑，如何使用markdown编辑器，感兴趣的同学可以自行上网查找，我们这里不多做描述。</p>
 <p>重新启动博客 hexo s，还是通过localhost:4000来查看我们的博客，可以看到我们的博客已经创建成功了。</p>
-<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/index.PNG" alt="image"></p>
-<p>到这一步，我们创建的是在本机的博客只能在自己的机器上查看的博客，那我们如何通过网上来查看博客。这边我们有两种方法，一种是有域名和服务器的同学可以将博客放到服务器上，没有的可以将博客部署到GitHub上。我们这里演示的是将博客部署到github上</p>
-<p>先在自己的GitHub上创建一个github仓库。 右上角有个加号，下面有new repository的选项，点击进行新建仓库</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/createBlog.PNG" alt="image"></p>
+<p>到这一步，我们创建的是在本机的博客，只能在自己的机器上查看的博客，那我们如何放到网上来查看呢？这边我们有两种方法，一种是有域名和服务器的同学可以将博客放到服务器上，没有的可以将博客部署到GitHub上。我们这里演示的是将博客部署到github上</p>
+<p>先在自己的GitHub上创建一个github仓库。 登录GitHub后首页右上角有个加号，点击后有new repository的选项，点击进行新建仓库</p>
 <p>账户名我们这里要写自己的GitHub账号名+.github.io</p>
 <p>比如我自己的GitHub账户是yangyingq，我使用的名字是yangyingq.github.io，这里我之前已经创建过了所以他报了个提醒</p>
-<p>description 仓库的的描述</p>
-<p>选择public，然后点击create</p>
+<p>description 仓库的的描述，选择public，然后点击create</p>
 <p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/github.PNG" alt="image"></p>
 <p>repository就创建成功了，这时候里面还什么都没有，不用去管它执行下一步。</p>
 <p>先回到我们的控制台，我们执行命令<br>cnpm install –save hexo-deployer-git </p>
@@ -228,7 +227,14 @@
 <p>这时候会弹出窗口叫你输入GitHub的账户密码</p>
 <p>输入账号密码。等待一会，部署就成功了，这时候我们重新回到我们github仓库，刷新，这时候我们会发现多了很多东西，这些就是你自己的博客。</p>
 <p>这时候我们就可以通过<a href="https://yangyingq.github.io来访问我们的博客。" target="_blank" rel="noopener">https://yangyingq.github.io来访问我们的博客。</a></p>
-<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>下载主题：<br>这是GitHub上的一个样式主题，如果你不想换，也可以沿用原来的主题。<br>git clone <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia</p>
+<h3 id="主题的修改："><a href="#主题的修改：" class="headerlink" title="主题的修改："></a>主题的修改：</h3><p>这是GitHub上的一个样式主题，如果你不想换，也可以沿用原来的主题。<br>git clone <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia</p>
+<p>这个过程在window10上可能有点久，我们耐心等待一下。</p>
+<p>下载完之后我们blog文件夹下就会多了一个theme的文件包，打开theme文件包中的_config.yml，修改其中的theme:landscape 变为theme:yilia,保存退出。</p>
+<p>重新生成和部署一下，我们就可以我们博客的主题就改变了。</p>
+<p>hexo 的指令</p>
+<p>清理：hexo clean</p>
+<p>重新生成：hexo g</p>
+<p>重新部署：hexo d</p>
 
       
 
