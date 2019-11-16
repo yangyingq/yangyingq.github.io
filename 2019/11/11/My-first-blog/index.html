@@ -22,7 +22,8 @@
 <meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;index.PNG">
 <meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;createBlog.PNG">
 <meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;github.PNG">
-<meta property="og:updated_time" content="2019-11-14T06:38:11.302Z">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;config.PNG">
+<meta property="og:updated_time" content="2019-11-16T02:35:01.834Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;nodejs.PNG">
   
@@ -227,16 +228,12 @@
 <p>description 仓库的的描述，选择public，然后点击create</p>
 <p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/github.PNG" alt="image"></p>
 <p>repository就创建成功了，这时候里面还什么都没有，不用去管它执行下一步。</p>
-<p>先回到我们的控制台，我们执行命令<br>cnpm install –save hexo-deployer-git </p>
-<p>执行完之后我们必须去修改一个非常重要的文件。</p>
-<p>blog文件夹下的__config.yml，用记事本打开它，找到#Deployment<br>并添加下面这些东西</p>
-<p>冒号后记得加个空格。</p>
-<p>这里的url是我们刚刚创建的仓库的url</p>
-<p>编写完后保存退出。<br>回到控制台，使用</p>
-<p>D:\blog&gt;hexo d</p>
-<p>将博客部署到GitHub上</p>
-<p>这时候会弹出窗口叫你输入GitHub的账户密码</p>
-<p>输入账号密码。等待一会，部署就成功了，这时候我们重新回到我们github仓库，刷新，这时候我们会发现多了很多东西，这些就是你自己的博客。</p>
+<p>先回到我们的控制台，我们执行命令cnpm install –save hexo-deployer-git ,这一步是安装GitHub的一个部署插件，将本地的hexo博客部署更新到github上。</p>
+<p>执行完之后我们必须去修改一个非常重要的文件。blog文件夹下的__config.yml，用记事本打开它，找到#Deployment<br>并添加下面这些东西</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/config.PNG" alt=""></p>
+<p>冒号后记得加个空格。repo填写的是我们刚刚创建的仓库的url(根据自己的仓库来写)，编写完后保存退出。</p>
+<p>回到控制台，使用D:\blog&gt;hexo d</p>
+<p>将博客部署到GitHub上，第一次使用时，会弹出窗口叫你输入GitHub的账户密码，输入账号密码。等待一会，部署就成功了，这时候我们重新回到我们github仓库，刷新，这时候我们会发现多了很多东西，这些就是你自己的博客。</p>
 <p>这时候我们就可以通过<a href="https://yangyingq.github.io来访问我们的博客。" target="_blank" rel="noopener">https://yangyingq.github.io来访问我们的博客。</a></p>
 <h3 id="主题的修改："><a href="#主题的修改：" class="headerlink" title="主题的修改："></a>主题的修改：</h3><p>这是GitHub上的一个样式主题，如果你不想换，也可以沿用原来的主题。<br>git clone <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia</p>
 <p>这个过程在window10上可能有点久，我们耐心等待一下。</p>
@@ -246,7 +243,7 @@
 <p>清理：hexo clean</p>
 <p>重新生成：hexo g</p>
 <p>重新部署：hexo d</p>
-<h3 id="配置及扩展"><a href="#配置及扩展" class="headerlink" title="配置及扩展"></a>配置及扩展</h3><p>更多配置及扩展请到<br><a href="https://www.jianshu.com/p/adb7640c97c2" target="_blank" rel="noopener">https://www.jianshu.com/p/adb7640c97c2</a></p>
+<h3 id="配置及扩展"><a href="#配置及扩展" class="headerlink" title="配置及扩展"></a>配置及扩展</h3><p>更多配置及扩展到链接<a href="https://www.jianshu.com/p/adb7640c97c2查看" target="_blank" rel="noopener">https://www.jianshu.com/p/adb7640c97c2查看</a></p>
 
       
 
