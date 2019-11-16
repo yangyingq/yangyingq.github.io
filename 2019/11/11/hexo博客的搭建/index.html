@@ -7,17 +7,26 @@
   
   
   
-  <title>通过git指令将文件上传到github仓库的步骤 | Hexo</title>
+  <title>如何搭建HEXO博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="具体步骤">
+  <meta name="description" content="搭建过程这里我们使用的是命令行搭建（基于windows10系统的静态博客搭建）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="通过git指令将文件上传到github仓库的步骤">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;13&#x2F;%E9%80%9A%E8%BF%87git%E6%8C%87%E4%BB%A4%E5%B0%86%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E4%BB%93%E5%BA%93%E7%9A%84%E6%AD%A5%E9%AA%A4&#x2F;index.html">
+<meta property="og:title" content="如何搭建HEXO博客">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;11&#x2F;hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="具体步骤">
+<meta property="og:description" content="搭建过程这里我们使用的是命令行搭建（基于windows10系统的静态博客搭建）">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-16T03:43:03.050Z">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;nodejs.PNG">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;gitpath.PNG">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;git.PNG">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;info.PNG">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;index.PNG">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;createBlog.PNG">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;github.PNG">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;config.PNG">
+<meta property="og:updated_time" content="2019-11-16T02:35:01.834Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;yangyingq&#x2F;yangyingq.io&#x2F;master&#x2F;image&#x2F;nodejs.PNG">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -270,11 +279,11 @@
         </header>
     </div>
 </nav>
-      <div class="body-wrap"><article id="post-通过git指令将文件上传到github仓库的步骤" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-hexo博客的搭建" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a  href="/2019/11/13/%E9%80%9A%E8%BF%87git%E6%8C%87%E4%BB%A4%E5%B0%86%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E4%BB%93%E5%BA%93%E7%9A%84%E6%AD%A5%E9%AA%A4/" class="article-date">
-      <time datetime="2019-11-13T06:07:16.000Z" itemprop="datePublished">2019-11-13</time>
+      <a  href="/2019/11/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/" class="article-date">
+      <time datetime="2019-11-11T09:39:17.000Z" itemprop="datePublished">2019-11-11</time>
 </a>
 
     </div>
@@ -288,7 +297,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      通过git指令将文件上传到github仓库的步骤
+      如何搭建HEXO博客
     </h1>
   
 
@@ -306,26 +315,59 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h2><a id="more"></a>
-
-<h3 id="windows下上传文件夹"><a href="#windows下上传文件夹" class="headerlink" title="windows下上传文件夹"></a>windows下上传文件夹</h3><p>1.我们回到git bash的命令窗口，由于我们是在文件夹上右键打开的，因此已经定位到该文件夹目录了。可以通过pwd命令查看文件夹位置：</p>
-<p><strong>pwd #查看文件夹位置</strong></p>
-<p>2.然后，将该文件夹变成Git可以管理的仓库：</p>
-<p><strong>使用git init</strong></p>
-<p>3.然后通过git add将所有文件提交到暂存区：</p>
-<p><strong>git add .</strong></p>
-<p>4.由于是第一次提交，需要将所有文件都进行提交，如果一个一个的提交太麻烦，通过. 命令可以将所有文件都进行提交。</p>
-<p>再然后，git commit -m ‘说明’提交到版本库中即可。</p>
-<p><strong>git commit -m ‘the initial edition’</strong></p>
-<p>5.这样我们便在本地建立好了仓库，接下来需要将本地仓库与GitHub网站的仓库进行关联。后面的网址是我们刚才在GitHub网站上建立的仓库位置，可以从网站上进行复制，如下：</p>
-<p><strong>git remote add origin <a href="https://github.com/geerniya/MxShop2.git" target="_blank" rel="noopener">https://github.com/geerniya/MxShop2.git</a></strong></p>
-<p>6.在将本地仓库与GitHub网站上的仓库进行关联后，便可进行推送了，但是在第一次进行推送时，需要注意的是，GitHub网站上的仓库并非是空的，我们在创建时创建了一个README文档，因此需要将两者进行合并才行。</p>
-<p><strong>git pull –rebase origin master</strong></p>
-<p>7.最后，在进行推送即可。</p>
-<p><strong>git push -u origin master</strong></p>
-<p>8.这个带有-u这个参数是指，将master分支的所有内容都提交，第一次关联之后后边你再提交就可以不用这个参数了，之后你的每一次修改，你就可以只将你修改push就好了。</p>
-<p><strong>git push origin master</strong></p>
-<p>9.如果提示remote already exist 可以用<strong>git remote rm origin</strong>将其删除。重新开始之后的步骤及可。</p>
+        <h2 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2><p>这里我们使用的是命令行搭建（基于windows10系统的静态博客搭建）</p>
+<a id="more"></a>
+<h3 id="环境的搭建"><a href="#环境的搭建" class="headerlink" title="环境的搭建"></a>环境的搭建</h3><p>这里我们直接到<a href="https://nodejs.org" target="_blank" rel="noopener">https://nodejs.org</a> 官网去下载</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/nodejs.PNG" alt="js图片"></p>
+<p>我们选择左边的进行下载安装，下载成功后进行安装，我们不断点击下一步就可以了。</p>
+<p>在控制台可以使用node -v 查看nodejs 的版本</p>
+<p>由于国内镜像源npm速度过慢，所以我们这里用的是cnpm,通过淘宝源进行下载</p>
+<p>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p>
+<p>然后通过cnpm下载hexo博客</p>
+<p>cnpm install -g hexo-cli</p>
+<p>安装成功之后我们可以用hexo -v查看hexo的版本，可以看出hexo是基于nodejs的</p>
+<h3 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h3><p><strong>安装完成之后我们创建一个博客的主目录。我们之后所有的操作都是基于在这个目录之下的。</strong></p>
+<p>我们这里是在D盘下直接创建了blog的一个文件夹，通过控制台进入我们刚刚创建的blog文件夹</p>
+<p>开始搭建我们的博客，将所需要的文件克隆到blog这个文件夹下</p>
+<p>D:\blog&gt;hexo init</p>
+<p>这条指令需要我们安装好git工具，不然会失败，我们先去下载安装好git。这里我推荐csdn博主日出东方vs唯我不败的一篇关于Git的安装博文，以下是链接地址</p>
+<p><a href="https://blog.csdn.net/qq_32786873/article/details/80570783" target="_blank" rel="noopener">https://blog.csdn.net/qq_32786873/article/details/80570783</a></p>
+<p>安装完Git之后，我们还要配置环境，看看path路径里有没有Git的路径配置，如果没有就添加。添加的是你Git的安装目录下的bin路径</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/gitpath.PNG" alt="image"></p>
+<p>成功之后在控制台输入git命令,如果出现下图的结果就表示安装成功了。</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/git.PNG" alt="image"></p>
+<p>安装完Git之后，我们通过hexo s 开启博客，然后下面会提示我们通过localhost:4000来访问我们的在本机上的一个静态博客</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/info.PNG" alt="image"></p>
+<p>我们在浏览器的url栏输入localhost:4000,可以看到博客已经搭建成功</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/index.PNG" alt="image"></p>
+<p>这时博客上只有一些实例的博客文章。下面我们开始创建我们的博客，通过hexo n+”博客名”来创建。</p>
+<p>如 hexo n “通过git指令将文件上传到github仓库的步骤”</p>
+<p>这时候下面命令行会出现提示创建信息。这里我们创建的是一个.md文件，可以通过markdown编辑器将其打开和编辑，如何使用markdown编辑器，感兴趣的同学可以自行上网查找，我们这里不多做描述。</p>
+<p>重新启动博客 hexo s，还是通过localhost:4000来查看我们的博客，可以看到我们的博客已经创建成功了。</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/createBlog.PNG" alt="image"></p>
+<p>到这一步，我们创建的是在本机的博客，只能在自己的机器上查看的博客，那我们如何放到网上来查看呢？这边我们有两种方法，一种是有域名和服务器的同学可以将博客放到服务器上，没有的可以将博客部署到GitHub上。我们这里演示的是将博客部署到github上</p>
+<p>先在自己的GitHub上创建一个github仓库。 登录GitHub后首页右上角有个加号，点击后有new repository的选项，点击进行新建仓库</p>
+<p>账户名我们这里要写自己的GitHub账号名+.github.io</p>
+<p>比如我自己的GitHub账户是yangyingq，我使用的名字是yangyingq.github.io，这里我之前已经创建过了所以他报了个提醒</p>
+<p>description 仓库的的描述，选择public，然后点击create</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/github.PNG" alt="image"></p>
+<p>repository就创建成功了，这时候里面还什么都没有，不用去管它执行下一步。</p>
+<p>先回到我们的控制台，我们执行命令cnpm install –save hexo-deployer-git ,这一步是安装GitHub的一个部署插件，将本地的hexo博客部署更新到github上。</p>
+<p>执行完之后我们必须去修改一个非常重要的文件。blog文件夹下的__config.yml，用记事本打开它，找到#Deployment<br>并添加下面这些东西</p>
+<p><img src="https://raw.githubusercontent.com/yangyingq/yangyingq.io/master/image/config.PNG" alt=""></p>
+<p>冒号后记得加个空格。repo填写的是我们刚刚创建的仓库的url(根据自己的仓库来写)，编写完后保存退出。</p>
+<p>回到控制台，使用D:\blog&gt;hexo d</p>
+<p>将博客部署到GitHub上，第一次使用时，会弹出窗口叫你输入GitHub的账户密码，输入账号密码。等待一会，部署就成功了，这时候我们重新回到我们github仓库，刷新，这时候我们会发现多了很多东西，这些就是你自己的博客。</p>
+<p>这时候我们就可以通过<a href="https://yangyingq.github.io来访问我们的博客。" target="_blank" rel="noopener">https://yangyingq.github.io来访问我们的博客。</a></p>
+<h3 id="主题的修改："><a href="#主题的修改：" class="headerlink" title="主题的修改："></a>主题的修改：</h3><p>这是GitHub上的一个样式主题，如果你不想换，也可以沿用原来的主题。<br>git clone <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia</p>
+<p>这个过程在window10上可能有点久，我们耐心等待一下。</p>
+<p>下载完之后我们blog文件夹下就会多了一个theme的文件包，打开theme文件包中的_config.yml，修改其中的theme:landscape 变为theme:yilia,保存退出。</p>
+<p>重新生成和部署一下，我们就可以我们博客的主题就改变了。</p>
+<p>hexo 的指令</p>
+<p>清理：hexo clean</p>
+<p>重新生成：hexo g</p>
+<p>重新部署：hexo d</p>
+<h3 id="配置及扩展"><a href="#配置及扩展" class="headerlink" title="配置及扩展"></a>配置及扩展</h3><p>更多配置及扩展到链接<a href="https://www.jianshu.com/p/adb7640c97c2查看" target="_blank" rel="noopener">https://www.jianshu.com/p/adb7640c97c2查看</a></p>
 
       
     </div>
@@ -334,13 +376,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a  href="/2019/11/13/%E9%80%9A%E8%BF%87git%E6%8C%87%E4%BB%A4%E5%B0%86%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E4%BB%93%E5%BA%93%E7%9A%84%E6%AD%A5%E9%AA%A4/">通过git指令将文件上传到github仓库的步骤</a></p>
+        <p><span>本文标题:</span><a  href="/2019/11/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/">如何搭建HEXO博客</a></p>
         <p><span>文章作者:</span><a  href="/" title="访问 yangyingq 的个人博客">yangyingq</a></p>
-        <p><span>发布时间:</span>2019年11月13日 - 14时07分</p>
-        <p><span>最后更新:</span>2019年11月16日 - 11时43分</p>
+        <p><span>发布时间:</span>2019年11月11日 - 17时39分</p>
+        <p><span>最后更新:</span>2019年11月16日 - 10时35分</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2019/11/13/%E9%80%9A%E8%BF%87git%E6%8C%87%E4%BB%A4%E5%B0%86%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E4%BB%93%E5%BA%93%E7%9A%84%E6%AD%A5%E9%AA%A4/" title="通过git指令将文件上传到github仓库的步骤">http://yoursite.com/2019/11/13/%E9%80%9A%E8%BF%87git%E6%8C%87%E4%BB%A4%E5%B0%86%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E4%BB%93%E5%BA%93%E7%9A%84%E6%AD%A5%E9%AA%A4/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/11/13/%E9%80%9A%E8%BF%87git%E6%8C%87%E4%BB%A4%E5%B0%86%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E4%BB%93%E5%BA%93%E7%9A%84%E6%AD%A5%E9%AA%A4/　　作者: yangyingq" title=""></span>
+            <span>原始链接:</span><a class="post-url" href="/2019/11/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/" title="如何搭建HEXO博客">http://yoursite.com/2019/11/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/11/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/　　作者: yangyingq" title=""></span>
         </p>
         <p>
             <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
@@ -351,11 +393,15 @@
 
 <nav id="article-nav">
   
-  
-    <a  href="/2019/11/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">如何搭建HEXO博客</div>
-      <strong class="article-nav-caption">></strong>
+    <a  href="/2019/11/13/%E9%80%9A%E8%BF%87git%E6%8C%87%E4%BB%A4%E5%B0%86%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E4%BB%93%E5%BA%93%E7%9A%84%E6%AD%A5%E9%AA%A4/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          通过git指令将文件上传到github仓库的步骤
+        
+      </div>
     </a>
+  
   
 </nav>
 
@@ -365,7 +411,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#具体步骤"><span class="toc-number">1.</span> <span class="toc-text">具体步骤</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#windows下上传文件夹"><span class="toc-number">1.1.</span> <span class="toc-text">windows下上传文件夹</span></a></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#搭建过程"><span class="toc-number">1.</span> <span class="toc-text">搭建过程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#环境的搭建"><span class="toc-number">1.1.</span> <span class="toc-text">环境的搭建</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#搭建博客"><span class="toc-number">1.2.</span> <span class="toc-text">搭建博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主题的修改："><span class="toc-number">1.3.</span> <span class="toc-text">主题的修改：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置及扩展"><span class="toc-number">1.4.</span> <span class="toc-text">配置及扩展</span></a></li></ol></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
@@ -438,13 +484,13 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a  href="/" title="回到主页"><i class="fa fa-home"></i></a>
+            <a  href="/2019/11/13/%E9%80%9A%E8%BF%87git%E6%8C%87%E4%BB%A4%E5%B0%86%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E4%BB%93%E5%BA%93%E7%9A%84%E6%AD%A5%E9%AA%A4/" title="上一篇: 通过git指令将文件上传到github仓库的步骤">
+                <i class="fa fa-angle-left"></i>
+            </a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
-            <a  href="/2019/11/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/" title="下一篇: 如何搭建HEXO博客">
-                <i class="fa fa-angle-right"></i>
-            </a>
+            <a  href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
     </div>
     <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/11/13/%E9%80%9A%E8%BF%87git%E6%8C%87%E4%BB%A4%E5%B0%86%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E4%BB%93%E5%BA%93%E7%9A%84%E6%AD%A5%E9%AA%A4/">通过git指令将文件上传到github仓库的步骤</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/">如何搭建HEXO博客</a></li></ul>
